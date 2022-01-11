@@ -1,4 +1,4 @@
-![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/chase.jpg)
+![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/cfpb.png)
 ---
 # Table of Contents
 1. [Background & Motivation](#background)
