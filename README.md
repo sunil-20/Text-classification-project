@@ -23,7 +23,7 @@ The data consists of 1,048,575 observations and 18 features which includes all f
 * __Website__: https://www.consumerfinance.gov/data-research/consumer-complaints/
 
 ## 3. EDA & Feature Engineering <a name="eda"></a><br>
-This section provides some useful information regarding the data and visualisations of important text used in the complaints.<br>
+This section provides some useful information regarding the data and visualisations of important text used in the complaints.<br><br>
 The following table highlights the product or complaint type and the number of complaints in each categories.<br>
 | Product    | Number of complaints |
 | :---        |    :----:   |
