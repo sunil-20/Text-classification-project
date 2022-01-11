@@ -61,16 +61,16 @@ The following table shows the text length and the respective product type.It sho
 |Payday, title, or personal loan|17117|
 |Credit or prepaid card|16755|<br>
 
-__Text Length__
+__Text Length__<br>
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Text_length.png)<br><br>
 
-__Wordcloud Whole dataset__
+__Wordcloud Whole dataset__<br>
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_whole.png)<br><br>
 
-__WordCloud Credit or prepaid card__
+__WordCloud Credit or prepaid card__<br>
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_prepaid_card.png)<br><br>
 
-__WordCloud Checking or Savings account__
+__WordCloud Checking or Savings account__<br>
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_Checking_Savings.png)<br><br>
 
 ## 4. Models used <a name="model"></a>
