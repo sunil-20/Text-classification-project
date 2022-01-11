@@ -78,15 +78,18 @@ The following image shows how the text length is distributed across different pr
 
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Text_length.png)<br><br>
 
-### 3.3. Wordcloud of the whole dataset<a name="wcw"></a>
+### 3.3. Wordcloud of the whole dataset<a name="wcw"></a><br>
+The following figure shows wordcloud of the whole dataset. We can see that most frequent words used in the complaints are: credit card, account, charge, called, asked payment, time, amount etc.This provides an initial understanding of how they frame complaint about the product or services. <br>
 
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_whole.png)<br><br>
 
-### 3.4. Wordcloud of Credit or Prepaid card class<a name="credit"></a>
+### 3.4. Wordcloud of Credit or Prepaid card class<a name="credit"></a><br>
+The following figure has been narrowed down to only Credit or Prepaid card class. Here most frequent words are: credit card, payment, charge, account, merchant, dispute, information, purchase etc.Here many of the word are overlapped with the previous wordcloud.
 
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_prepaid_card.png)<br><br>
 
-### 3.5. Wordcloud of Checking or Savings account<a name="check"></a>
+### 3.5. Wordcloud of Checking or Savings account<a name="check"></a><br>
+The following figure provides an overview of frequent words used in Checking or Savings account class. This class has also received many complaints compared to other classes. Here the most frequent words are: account, check, money, time, charge, transaction, called, fund, checking account, one etc.<br>
 
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_Checking_Savings.png)<br><br>
 
