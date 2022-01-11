@@ -44,7 +44,22 @@ The following table highlights the product or complaint type and the number of c
 |15. Other financial service|                                                            1|
 
 <br>The following figure shows the number of complaints in each categories. Some of the categories which are relevant to combine has been merged together for better interpretation and optimization. Figure shows that Credit or prepaid card and Checking or savings account complaints are higher compared to other complaints categories. <br>
-![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Complaint_cases.png)
+![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Complaint_cases.png)<br><br>
+
+The following table shows the text length and the respective product type.It shows that Debt collection has the longest text length with 29239 characters. <br>
+
+| Product    | Text length|
+| :---        |    :----:   |
+|Debt collection|29239|
+|Debt collection|25450|
+|Credit or prepaid card|23778|
+|Debt collection|21175|
+|Money transfer, virtual currency, or money service|20189|
+|Payday, title, or personal loan|19547|
+|Payday, title, or personal loan|19161|
+|Payday, title, or personal loan|17676|
+|Payday, title, or personal loan|17117|
+|Credit or prepaid card|16755|<br>
 ## 4. Models used <a name="model"></a>
 ### 4.1. Random Forest<a name="rf"></a>
 ### 4.2. Logistic Regression <a name="lg"></a>
