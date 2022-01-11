@@ -23,7 +23,8 @@ The data consists of 1,048,575 observations and 18 features which includes all f
 * __Website__: https://www.consumerfinance.gov/data-research/consumer-complaints/
 
 ## 3. EDA & Feature Engineering <a name="eda"></a><br>
-This section provides some useful information regarding the data and visualisations of important text used in the complaints. Similarly
+This section provides some useful information regarding the data and visualisations of important text used in the complaints.<br>
+The following table highlights the product or complaint type and the number of complaints in each categories.<br>
 | Product    | Number of complaints |
 | :---        |    :----:   |
 |1. Credit card or prepaid card|                                                     4023|
@@ -42,7 +43,7 @@ This section provides some useful information regarding the data and visualisati
 |14. Money transfers|                                                                    2|
 |15. Other financial service|                                                            1|
 
-<br>The following figure shows the number of complaints in each categories. Some of the categories which are relevant to combine has been merged together for better interpretation and optimization. Figure shows that Credit or prepaid card and Checking or savings account complaints are higher compared to other complaints. <br>
+<br>The following figure shows the number of complaints in each categories. Some of the categories which are relevant to combine has been merged together for better interpretation and optimization. Figure shows that Credit or prepaid card and Checking or savings account complaints are higher compared to other complaints categories. <br>
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Complaint_cases.png)
 ## 4. Models used <a name="model"></a>
 ### 4.1. Random Forest<a name="rf"></a>
