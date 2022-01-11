@@ -22,7 +22,8 @@ Financial services like Chase bank are a critical sector that receives many comp
 The data consists of 1,048,575 observations and 18 features which includes all financial institutions complaints provided on CFPB. I have narrowed down the institution to one which allows for an overview of one institution. Using one institution also provides a strong model outcome and interpretability. Additionally, the model doesn’t exhaust available computing resources while running the algorithm. As JPMorgan Chase & Co. is one of the leading financial institutions with a great track record and relatively old institution, I have chosen to use the complaint received by this institution to use as a multi-text classification. <br><br>
 * __Website__: https://www.consumerfinance.gov/data-research/consumer-complaints/
 
-## 3. EDA & Feature Engineering <a name="eda"></a>
+## 3. EDA & Feature Engineering <a name="eda"></a><br>
+This section provides some useful information regarding the data and visualisations of important text used in the complaints. Similarly
 | Product    | Number of complaints |
 | :---        |    :----:   |
 |1. Credit card or prepaid card|                                                     4023|
