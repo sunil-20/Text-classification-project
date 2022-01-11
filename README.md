@@ -25,21 +25,21 @@ The data consists of 1,048,575 observations and 18 features which includes all f
 ## 3. EDA & Feature Engineering <a name="eda"></a>
 | Product    | Number of complaints |
 | :---        |    :----:   |
-|Credit card or prepaid card|                                                     4023|
-|Checking or savings account|                                                     3364|
-|Credit reporting, credit repair services, or other personal consumer reports|    1631|
-|Mortgage|                                                                        1022|
-|Money transfer, virtual currency, or money service|                               752|
-|Debt collection|                                                                  517|
-|Vehicle loan or lease|                                                            316|
-|Credit card|                                                                       88|
-|Bank account or service|                                                           58|
-|Payday loan, title loan, or personal loan|                                         38|
-|Student loan|                                                                      11|
-|Credit reporting|                                                                   5|
-|Consumer Loan|                                                                      3|
-|Money transfers|                                                                    2|
-|Other financial service|                                                            1|
+|1. Credit card or prepaid card|                                                     4023|
+|2. Checking or savings account|                                                     3364|
+|3. Credit reporting, credit repair services, or other personal consumer reports|    1631|
+|4. Mortgage|                                                                        1022|
+|5. Money transfer, virtual currency, or money service|                               752|
+|6. Debt collection|                                                                  517|
+|7. Vehicle loan or lease|                                                            316|
+|8. Credit card|                                                                       88|
+|9. Bank account or service|                                                           58|
+|10. Payday loan, title loan, or personal loan|                                         38|
+|11. Student loan|                                                                      11|
+|12. Credit reporting|                                                                   5|
+|13. Consumer Loan|                                                                      3|
+|14. Money transfers|                                                                    2|
+|15. Other financial service|                                                            1|
 ## 4. Models used <a name="model"></a>
 ### 4.1. Random Forest<a name="rf"></a>
 ### 4.2. Logistic Regression <a name="lg"></a>
