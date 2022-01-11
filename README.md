@@ -1,5 +1,3 @@
-Multi class text classification | Consumer Financial Protection Bureau (CFPB) | Chase
-
 ![](images/chase.jpg)
 
 # Table of Contents
