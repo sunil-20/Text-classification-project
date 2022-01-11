@@ -1,4 +1,3 @@
-# Text-classification-project (preliminary-phase)
 Multi class text classification | Consumer Financial Protection Bureau (CFPB) | Chase
 
 ![](images/chase.jpg)
