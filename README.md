@@ -29,7 +29,9 @@ The data consists of 1,048,575 observations and 18 features which includes all f
 
 ## 3. EDA & Feature Engineering <a name="eda"></a><br>
 This section provides some useful information regarding the data and visualisations of important text used in the complaints.<br><br>
-### 3.1. Product type and number of complaints<a name="product"></a>
+
+### 3.1. Product type and number of complaints<a name="product"></a><br>
+
 The following table highlights the product or complaint type and the number of complaints in each categories.<br>
 | Product    | Number of complaints |
 | :---        |    :----:   |
@@ -49,10 +51,13 @@ The following table highlights the product or complaint type and the number of c
 |14. Money transfers|                                                                    2|
 |15. Other financial service|                                                            1|
 
-<br>The following figure shows the number of complaints in each categories. Some of the categories which are relevant to combine has been merged together for better interpretation and optimization. Figure shows that Credit or prepaid card and Checking or savings account complaints are higher compared to other complaints categories. <br>
+<br>
+The following figure shows the number of complaints in each categories. Some of the categories which are relevant to combine has been merged together for better interpretation and optimization. Figure shows that Credit or prepaid card and Checking or savings account complaints are higher compared to other complaints categories. <br>
+
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Complaint_cases.png)<br><br>
 
-__Text Length__<br>
+### 3.2. Text length of the complaint<a name="text"></a><br>
+
 The following table shows the text length and the respective product type.It shows that Debt collection has the longest text length with 29239 characters. <br>
 
 | Product    | Text length|
@@ -70,15 +75,19 @@ The following table shows the text length and the respective product type.It sho
 
 
 The following image shows how the text length is distributed across different product classes. We can see from the figure that, the product ID Number 5 has almost 30000 characters which is the class "Debt collection". We can see lot of outliers across all the classes. That means, text lenght is highly variant and it might depend on the person and the context of the complaint. We can confirm that almost 75% of the text length in all classes are less than 4000 characters. <br>
+
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Text_length.png)<br><br>
 
-__Wordcloud Whole dataset__<br>
+### 3.3. Wordcloud of the whole dataset<a name="wcw"></a>
+
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_whole.png)<br><br>
 
-__WordCloud Credit or prepaid card__<br>
+### 3.4. Wordcloud of Credit or Prepaid card class<a name="credit"></a>
+
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_prepaid_card.png)<br><br>
 
-__WordCloud Checking or Savings account__<br>
+### 3.5. Wordcloud of Checking or Savings account<a name="check"></a>
+
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_Checking_Savings.png)<br><br>
 
 ## 4. Models used <a name="model"></a>
