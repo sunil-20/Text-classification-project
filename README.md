@@ -12,7 +12,7 @@ Multi class text classification | Consumer Financial Protection Bureau (CFPB) | 
    2. [Logistic Regression](#lg)
    3. [Multinomial Naive bayes](#nb)
    4. [Linear SVC](#svc)
-   5. [XGBoost(#xgb)
+   5. [XGBoost](#xgb)
 5. [Conclusions](#result)
 6. [Citations](#cite)
 
