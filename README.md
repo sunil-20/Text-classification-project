@@ -25,8 +25,6 @@ The data consists of 1,048,575 observations and 18 features which includes all f
 ## 3. EDA & Feature Engineering <a name="eda"></a>
 | Product    | Number of complaints |
 | :---        |    :----:   |
-| Header      | Title       |
-| Paragraph   | Text        |
 |Credit card or prepaid card|                                                     4023|
 |Checking or savings account|                                                     3364|
 |Credit reporting, credit repair services, or other personal consumer reports|    1631|
