@@ -41,6 +41,8 @@ This section provides some useful information regarding the data and visualisati
 |13. Consumer Loan|                                                                      3|
 |14. Money transfers|                                                                    2|
 |15. Other financial service|                                                            1|
+
+![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Complaint_cases.png)
 ## 4. Models used <a name="model"></a>
 ### 4.1. Random Forest<a name="rf"></a>
 ### 4.2. Logistic Regression <a name="lg"></a>
