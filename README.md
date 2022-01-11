@@ -62,6 +62,7 @@ The following table shows the text length and the respective product type.It sho
 |Credit or prepaid card|16755|<br>
 
 __Text Length__<br>
+The following image shows how the text length is distributed across different product classes. We can see from the figure that, the product ID Number 5 has almost 30000 characters which is the class "Debt collection". We can visualize lot of outliers across all the classes. That means, text lenght are highly variant.We can confirm that averege text length are less than 4000. <br>
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Text_length.png)<br><br>
 
 __Wordcloud Whole dataset__<br>
