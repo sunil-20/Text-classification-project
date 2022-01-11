@@ -7,7 +7,7 @@ Multi class text classification | Consumer Financial Protection Bureau (CFPB) | 
 1. [Background & Motivation](#background)
 2. [Data Source](#data)
 3. [EDA & Feature Engineering](#eda)
-4. [Sampling, Modeling & Comparison](#model)
+4. [Model used](#model)
    1. [Random Forest](#rf)
    2. [Logistic Regression](#lg)
    3. [Multinomial Naive bayes](#nb)
