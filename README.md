@@ -19,7 +19,7 @@ When there is a complaint from a client with a product or service of the company
 Financial services like Chase bank are a critical sector which receives many complaints regarding the service provided by the institution. So, in the first place we must segregate those complaints to specific category/class before handling them for further business improvement. To have an overview of the consumer complaint, this project has utilized the dataset from Consumer Financial Protection Bureau (CFPB). CFPB is a U.S. government agency to help consumer to fairly treat by banks, lenders and other financial companies.
 ## 2. Data & model <a name="data"></a>
 The data consists of 1,048,575 observations and 18 features which includes all financial institutions complaints provided on CFPB. I have narrowed down the institution to one to have an overview of one institution which might provide a strong information and to make sure my model doesn’t exhaust available computing resource. As JPMorgan Chase & Co.  is one of the leading financial institutions with great track record and relatively old institution, I have chosen to use the complaint receive by this institution to use as a multi-text classification.<br>
-Website: https://www.consumerfinance.gov/data-research/consumer-complaints/
+* Website: https://www.consumerfinance.gov/data-research/consumer-complaints/
 ## 3. EDA & Feature Engineering <a name="eda"></a>
 ## 4. Models used <a name="model"></a>
 ### 4.1. Random Forest<a name="rf"></a>
