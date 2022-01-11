@@ -8,13 +8,13 @@ Multi class text classification | Consumer Financial Protection Bureau (CFPB) | 
 2. [Data Source](#data)
 3. [EDA & Feature Engineering](#eda)
 4. [Model used](#model)
-   4.1. [Random Forest](#rf)
+   1. [Random Forest](#rf)
    2. [Logistic Regression](#lg)
    3. [Multinomial Naive bayes](#nb)
    4. [Linear SVC](#svc)
    5. [XGBoost](#xgb)
 5. [Conclusions](#result)
-6. [Citations](#cite)
+6. [Citations](#ref)
 
 ## 1. Background & Motivation <a name="background"></a>
 Considering the importance of consumer complaint which provides a significant opportunity to improve the business, this project aimed at using the complaint dataset to classify the complaints according to specified categories they fall on. Complaints are valuable resources to address many business problems. Complaints give an information of the business problem by the experience shared by consumer in the financial marketplace. We can leverage the consumer complaint by identifying the legitimate issues shared by the client. There might be an indication if the business process has been some issues for smooth client services.
@@ -33,4 +33,4 @@ Website: https://www.consumerfinance.gov/data-research/consumer-complaints/
 
 ## 5. Conclusion <a name="result"></a>
 
-## 6. Citation <a name="cite"></a>
+## 6. Citation <a name="ref"></a>
