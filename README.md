@@ -137,8 +137,8 @@ The F1 Score is also an important model performance measure. F1 score is harmoni
 <img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/FScore.png" alt="F1-score" width="350" height="60">
 
 Accuracy is a metrics used in classification models which measures the number of correct predictions. <br>
-Accuracy = Number of correct predictions / Number of total predictions  <br>
-
+<br>
+<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/Accuracy.png" alt="F1-score" width="350" height="60"> <br>
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Random Forest(Base)__  | 0.78    | 0.92          |  0.84       |  0.81       |0.82     |
