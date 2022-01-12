@@ -136,16 +136,12 @@ When we develop a model, we can’t blindly trust the model right away because i
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Random Forest(Base)__  | 0.78    | 0.92          |  0.84       |  0.81       |0.82     |
 | __Random Forest(Tuned)__ | 0.74    | 0.94          | 0.79        | 0.81        | 0.77    |
-
 | __Logistic Regression(Base)__  | 0.82    | 0.95          |  0.88       |  0.86     |0.86  |
 | __ Logistic Regression (Tuned)__ | 0.82    | 0.95          | 0.88        | 0. 86   | 0.85 |
-
 | __Naive Bayes(Base)__  | 0.71    | 0.93          |  0.78       |  0.81       |0.62    |
 | __ Naive Bayes (Tuned)__| 0.71    | 0.93          | 0.78        | 0.81        | 0.62 |
-
 | __Linear SVC(Base)__  | 0.83    | 0.95          |  0.88       |  0.86       |0.86|
 | __ Linear SVC (Tuned)__ | 0.82    | 0.95          | 0.88        | 0.85        | 0.86|
-
 | __XGBoost(Base)__  | 0.80    | 0.94          |  0.85       |  0.83       |0.84|
 | __XGBoost(Tuned)__ | 0.77    | 0.91          | 0.83        | 0.80        | 0.81|
 
