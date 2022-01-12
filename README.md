@@ -135,7 +135,7 @@ The consumer complaint dataset has been trained using five different classificat
 <br>The ROC curve provides information on trade-off between the true positive rate and the false positive rate for given threshold. The bigger the total area under the curve (AUC), the better the model performance.<br>
 The F1 Score is also an important model performance measure. F1 score is harmonic mean of precision and recall.<br> 
 
-![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/F1_Score.png | width = 50)
+![](https://github.com/sunil-20/Text-classification-project/blob/main/Images/F1_Score.png | width = 50)
 
 Accuracy is a metrics used in classification models which measures the number of correct predictions. <br>
 Accuracy = Number of correct predictions / Number of total predictions  <br>
