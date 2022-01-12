@@ -95,12 +95,41 @@ The following figure provides an overview of frequent words used in Checking or 
 
 ## 4. Models used <a name="model"></a><br>
 When we develop a model, we can’t blindly trust the model right away because it fits the training data well. So, we need to validate the model performance with different models and compare them to how they perform independently. Additionally, we can use the nested model where the output of the preceding trained model is used as part of the input for the succeeding model during the process of model training. Because of resource limitations, I stayed with a separate model with cross-validation steps, train-test split, and model parameter tuning. In the end, I have compared them with different model performance scoring criteria. Specifically, I have used F1-score, ROC_AUC score, and Accuracy for comparing the model performance. <br>   
-### 4.1. Random Forest<a name="rf"></a>
-### 4.2. Logistic Regression <a name="lg"></a>
-### 4.3. Multinomial Naive bayes<a name="nb"></a>
-### 4.4. Linear SVC <a name="svc"></a>
-### 4.5. XGBoost <a name="xgb"></a>
+### 4.1. Random Forest<a name="rf"></a><br>
 
-## 5. Conclusion <a name="result"></a>
+| Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
+| :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
+| __Base__  | 0.78    | 0.92          |  0.84       |  0.81       |0.82        |
+| __Tuned__ | 0.74    | 0.94          | 0.79        | 0.81        | 0.77       |
+
+### 4.2. Logistic Regression <a name="lg"></a><br>
+
+| Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
+| :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
+| __Base__  | 0.82    | 0.95          |  0.88       |  0.86       |0.86        |
+| __Tuned__ | 0.82    | 0.95          | 0.88        | 0. 86       | 0.85       |
+
+### 4.3. Multinomial Naive bayes<a name="nb"></a><br>
+
+| Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
+| :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
+| __Base__  | 0.71    | 0.93          |  0.78       |  0.81       |0.62        |
+| __Tuned__ | 0.71    | 0.93          | 0.78        | 0.81        | 0.62       |
+
+### 4.4. Linear SVC <a name="svc"></a><br>
+
+| Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
+| :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
+| __Base__  | 0.83    | 0.95          |  0.88       |  0.86       |0.86        |
+| __Tuned__ | 0.82    | 0.95          | 0.88        | 0.85        | 0.86       |
+
+### 4.5. XGBoost <a name="xgb"></a><br>
+
+| Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
+| :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
+| __Base__  | 0.80    | 0.94          |  0.85       |  0.83       |0.84        |
+| __Tuned__ | 0.77    | 0.91          | 0.83        | 0.80        | 0.81       |
+
+## 5. Conclusion <a name="result"></a><br>
 
 ## 6. Citation <a name="ref"></a>
