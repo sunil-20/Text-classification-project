@@ -136,6 +136,7 @@ The consumer complaint dataset has been trained using five different classificat
 The F1 Score is also an important model performance measure. F1 score is harmonic mean of precision and recall.<br> 
 
 ![](https://github.com/sunil-20/Text-classification-project/blob/main/Images/F1_Score.png | width = 50)
+<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/F1_Score.png" alt="F1-score" width="50" height="30">
 
 Accuracy is a metrics used in classification models which measures the number of correct predictions. <br>
 Accuracy = Number of correct predictions / Number of total predictions  <br>
