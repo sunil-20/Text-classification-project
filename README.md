@@ -131,6 +131,11 @@ When we develop a model, we can’t blindly trust the model right away because i
 | __Tuned__ | 0.77    | 0.91          | 0.83        | 0.80        | 0.81       |
 
 ## 5. Conclusion <a name="result"></a><br>
+The consumer complaint dataset has been trained using five different classification models: Random Forest, Logistic Regression, Naïve Bayes, Linear Support Vector Machine and XGBoost. As all of them are classification models, we can use the ROC_AUC, Accuracy and F1 score of each class to determine the model performance. The ROC curve provides information on trade-off between the true positive rate and the false positive rate for given threshold. The bigger the total area under the curve (AUC), the better the model performance.
+The F1 Score is also an important model performance measure. F1 score is harmonic mean of precision and recall. 
+F1 score = 2* precision * recall / precision + recall
+Accuracy is a metrics used in classification models which measures the number of correct predictions. 
+Accuracy = Number of correct predictions / Number of total predictions  <br>
 
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
