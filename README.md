@@ -76,7 +76,7 @@ The following table shows the text length and the respective product type.It sho
 
 The following image shows how the text length is distributed across different product classes. We can see from the figure that, the product ID Number 5 has almost 30000 characters which is the class "Debt collection". We can see lot of outliers across all the classes. That means, text lenght is highly variant and it might depend on the person and the context of the complaint. We can confirm that almost 75% of the text length in all classes are less than 4000 characters. <br>
 
-![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Text_length.png)<br><br>
+![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Text_length.png | width = 100)<br><br>
 
 ### 3.3. Wordcloud of the whole dataset<a name="wcw"></a><br>
 The following figure shows wordcloud of the whole dataset. We can see that most frequent words used in the complaints are: credit card, account, charge, called, asked payment, time, amount etc.This provides an initial understanding of how they frame complaint about the product or services. <br>
