@@ -136,6 +136,7 @@ The consumer complaint dataset has been trained using five different classificat
 The F1 Score is also an important model performance measure. F1 score is harmonic mean of precision and recall.<br> 
 F1 score = 2* precision * recall / precision + recall<br>
 $$ F1 Score = \frac{2*}{precision * recall}{precision + recall}$$
+$$ g(z) = \frac{1}{1 + e^{-z}}$$
 Accuracy is a metrics used in classification models which measures the number of correct predictions. <br>
 Accuracy = Number of correct predictions / Number of total predictions  <br>
 
