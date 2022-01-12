@@ -93,7 +93,8 @@ The following figure provides an overview of frequent words used in Checking or 
 
 ![image](https://github.com/sunil-20/Text-classification-project/blob/main/Images/Wordcloud_Checking_Savings.png)<br><br>
 
-## 4. Models used <a name="model"></a>
+## 4. Models used <a name="model"></a><br>
+When we develop a model, we can’t blindly trust the model right away because it fits the training data well. So, we need to validate the model performance with different models and compare them to how they perform independently. Additionally, we can use the nested model where the output of the preceding trained model is used as part of the input for the succeeding model during the process of model training. Because of resource limitations, I stayed with a separate model with cross-validation steps, train-test split, and model parameter tuning. In the end, I have compared them with different model performance scoring criteria. Specifically, I have used F1-score, ROC_AUC score, and Accuracy for comparing the model performance. <br>   
 ### 4.1. Random Forest<a name="rf"></a>
 ### 4.2. Logistic Regression <a name="lg"></a>
 ### 4.3. Multinomial Naive bayes<a name="nb"></a>
