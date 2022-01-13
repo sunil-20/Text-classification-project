@@ -96,7 +96,7 @@ The following figure provides an overview of frequent words used in Checking or 
 ## 4. Models used <a name="model"></a><br>
 When we develop a model, we can’t blindly trust the model right away because it fits the training data well. So, we need to validate the model performance with different models and compare them to how they perform independently. Additionally, we can use the nested model where the output of the preceding trained model is used as part of the input for the succeeding model during the process of model training. Because of resource limitations, I stayed with a separate model with cross-validation steps, train-test split, and model parameter tuning. In the end, I have compared them with different model performance scoring criteria. Specifically, I have used F1-score, ROC_AUC score, and Accuracy for comparing the model performance. <br>   
 ### 4.1. Random Forest<a name="rf"></a><br>
-
+A random forest is a machine learning model used to solve both classification and regression problems. It uses many decisions trees to reach the solutions and the algorithm is trained through bagging(ensemble model) or bootstrap aggregating so that each tree is different from the other and there is no correlation issue. For classification tasks, the output of random forest is the class most trees have selected. Each tree in the forest got a vote on the outcome for a given observation. <br>
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Base__  | 0.78    | 0.92          |  0.84       |  0.81       |0.82        |
