@@ -102,15 +102,18 @@ A random forest is a machine learning model used to solve both classification an
 | __Base__  | 0.78    | 0.92          |  0.84       |  0.81       |0.82        |
 | __Tuned__ | 0.74    | 0.94          | 0.79        | 0.81        | 0.77       |
 
+
 ### 4.2. Logistic Regression <a name="lg"></a><br>
 Logistic model is used to model the probability of a certain class or events. Logistic regression uses a logistic function to maximize the entropy of the labels or classes conditioned on the features.<br>
 The Logistic function takes the following form:<br>
-<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/logistic_fx.png" alt="F1-score" width="350" height="60"> <br>
+
+<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/logistic_fx.png" alt="F1-score" width="300" height="60"> <br>
 
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Base__  | 0.82    | 0.95          |  0.88       |  0.86       |0.86        |
 | __Tuned__ | 0.82    | 0.95          | 0.88        | 0. 86       | 0.85       |
+
 
 ### 4.3. Multinomial Naive bayes<a name="nb"></a><br>
 
@@ -118,6 +121,7 @@ The Logistic function takes the following form:<br>
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Base__  | 0.71    | 0.93          |  0.78       |  0.81       |0.62        |
 | __Tuned__ | 0.71    | 0.93          | 0.78        | 0.81        | 0.62       |
+
 
 ### 4.4. Linear SVC <a name="svc"></a><br>
 
