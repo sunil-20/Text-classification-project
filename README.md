@@ -116,6 +116,12 @@ The Logistic function takes the following form:<br>
 
 
 ### 4.3. Multinomial Naive bayes<a name="nb"></a><br>
+The Multinomial Naïve Bayes algorithm is a Bayesian learning approach mostly popular in text processing or Natural Language Processing (NLP). Bayes theorem calculates the probability of an event occurring based on the prior knowledge of conditions related to an event. <br>
+The theorem can be stated as:<br>
+<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/bayes.png" alt="F1-score" width="170" height="60"> <br>
+
+
+
 
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
