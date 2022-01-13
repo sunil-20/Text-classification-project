@@ -103,7 +103,7 @@ A random forest is a machine learning model used to solve both classification an
 | __Tuned__ | 0.74    | 0.94          | 0.79        | 0.81        | 0.77       |
 
 ### 4.2. Logistic Regression <a name="lg"></a><br>
-
+Logistic model is used to model the probability of a certain class or events. Logistic regression uses a logistic function to maximize the entropy of the labels or classes conditioned on the features.<br>
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Base__  | 0.82    | 0.95          |  0.88       |  0.86       |0.86        |
