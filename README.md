@@ -120,7 +120,10 @@ The Multinomial Naïve Bayes algorithm is a Bayesian learning approach mostly po
 The theorem can be stated as:<br>
 <img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/bayes.png" alt="F1-score" width="170" height="60"> <br>
 
-
+Where we are calculating the probability of class A when predictor B is already provided.<br>
+P(B) = prior probability of class B<br>
+P(A) = prior probability of class A<br>
+P(B|A) = occurrence of predictor B given the probability of class A<br>
 
 
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
