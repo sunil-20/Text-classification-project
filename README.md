@@ -144,7 +144,7 @@ LinearSVC uses a liblinear estimator which penalizes the intercept. They converg
 ### 4.5. XGBoost <a name="xgb"></a><br>
 Boosting in machine learning is ensemble learning method that combines weak learners to strong ones. The aim of boosting is to reduce bias and variance. Unlike many ML models which primarily focuses on prediction done by a single model, boosting seek to increase the accuracy by training a sequence of weak learner to strong learners.  <br>
 
-<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/boosting2.png" alt="F1-score" width="500" height="300"> <br>
+<img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/boosting2.png" alt="F1-score" width="500" height="250"> <br>
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Base__  | 0.80    | 0.94          |  0.85       |  0.83       |0.84        |
