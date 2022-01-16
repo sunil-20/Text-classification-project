@@ -159,7 +159,7 @@ The F1 Score is also an important model performance measure. F1 score is harmoni
 Accuracy is a metrics used in classification models which measures the number of correct predictions. <br>
 <br>
 <img src="https://github.com/sunil-20/Text-classification-project/blob/main/Images/Accuracy.png" alt="F1-score" width="350" height="60"> <br>
-Following table summarizes the model performance considering specific performance metrics. After training several models Logistic Regression and Linear SVC performed better compared to other models. ROC_AUC score of both models is 95 and Accuracy of 0.82 and 0.83 respectively. Additionally, the F1 score of all three classes is also higher compared to other models. In both models, parameter tuning didn't perform better compared to its base model without parameter tuning.
+Following table summarizes the model performance considering specific performance metrics. After training several models, Logistic Regression and Linear SVC performed better compared to other models. ROC_AUC score of both models is 95 and Accuracy of 0.82 and 0.83 respectively. Additionally, the F1 score of all three classes is also higher compared to other models. In both models, parameter tuning didn't perform better compared to its base model without parameter tuning.
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
 | __Random Forest(Base)__  | 0.78    | 0.92          |  0.84       |  0.81       |0.82     |
