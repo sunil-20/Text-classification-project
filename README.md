@@ -133,6 +133,8 @@ P(B|A) = occurrence of predictor B given the probability of class A<br>
 
 
 ### 4.4. Linear SVC <a name="svc"></a><br>
+The main objective of SVM is to find the best decision boundary(hyperplane) in an N-dimensional space that distinctly classifies the observations. To separate the classes many possible hyperplanes can be chosen. A good separation is obtained by the hyperplane when there is the largest distance between the hyperplane and the nearest training data point. <br>
+LinearSVC uses a liblinear estimator which penalizes the intercept. They converge quicker and use the One-vs-All(ovr) multiclass reduction.<br>
 
 | Model     | Accuracy| ROC_AUC score | F1 score(1) | F1 score(2) | F1 score(3)|
 | :---      |   :----:|   :---:       | :---:       |:---:        |:---:       |
