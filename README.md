@@ -171,7 +171,9 @@ Following table summarizes the model performance considering specific performanc
 | __Linear SVC(Base)__  | 0.83    | 0.95          |  0.88       |  0.86       |0.86|
 | __Linear SVC (Tuned)__ | 0.82    | 0.95          | 0.88        | 0.85        | 0.86|
 | __XGBoost(Base)__  | 0.80    | 0.94          |  0.85       |  0.83       |0.84|
-| __XGBoost(Tuned)__ | 0.77    | 0.91          | 0.83        | 0.80        | 0.81|
+| __XGBoost(Tuned)__ | 0.77    | 0.91          | 0.83        | 0.80        | 0.81|<br>
+
+In general, we use only 2-3 models to check the best. For learning purpose I have use more than three models.
 
 ## 6. Citation <a name="ref"></a>
 
